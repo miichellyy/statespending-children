@@ -168,7 +168,53 @@ ggplot(stateChildSpendingTotalsLong, aes(y=reorder(state, value), x=value, fill 
   ylab("state")+
   guides(fill=guide_legend("spending category"))
 
-#export results a csv to use in GIS
-write.csv(stateChildSpendingTotals,"stateChildSpendingTotals.csv", row.names = FALSE)
+#calculate quantiles and bins for each category
+install.packages("fabricatr")
+library(fabricatr)
+
+stateChildSpendingTotals$education_rank <- split_quantile(x = stateChildSpendingTotals$education, type = 5)
+stateChildSpendingTotals$financial_rank <- split_quantile(x = stateChildSpendingTotals$financial, type = 5)
+stateChildSpendingTotals$nutrition_rank <- split_quantile(x = stateChildSpendingTotals$nutrition, type = 5)
+stateChildSpendingTotals$soc_security_rank <- split_quantile(x = stateChildSpendingTotals$soc_security, type = 5)
+stateChildSpendingTotals$tax_rank <- split_quantile(x = stateChildSpendingTotals$tax, type = 5)
+stateChildSpendingTotals$health_rank <- split_quantile(x = stateChildSpendingTotals$health, type = 5)
+stateChildSpendingTotals$housing_rank <- split_quantile(x = stateChildSpendingTotals$housing, type = 5)
+stateChildSpendingTotals$resources_rank <- split_quantile(x = stateChildSpendingTotals$resources, type = 5)
+stateChildSpendingTotals$employment_rank <- split_quantile(x = stateChildSpendingTotals$employment, type = 5)
+
+#set as numeric
+stateChildSpendingTotals$education_rank <- as.integer(stateChildSpendingTotals$education_rank)
+stateChildSpendingTotals$financial_rank <- as.numeric(stateChildSpendingTotals$financial_rank)
+stateChildSpendingTotals$nutrition_rank <- as.numeric(stateChildSpendingTotals$nutrition_rank)
+stateChildSpendingTotals$soc_security_rank <- as.numeric(stateChildSpendingTotals$soc_security_rank)
+stateChildSpendingTotals$tax_rank <- as.numeric(stateChildSpendingTotals$tax_rank)
+stateChildSpendingTotals$health_rank <- as.numeric(stateChildSpendingTotals$health_rank)
+stateChildSpendingTotals$housing_rank <- as.numeric(stateChildSpendingTotals$housing_rank)
+stateChildSpendingTotals$resources_rank <- as.numeric(stateChildSpendingTotals$resources_rank)
+stateChildSpendingTotals$employment_rank <- as.numeric(stateChildSpendingTotals$employment_rank)
 
 
+#load and join abortion access value
+stateAbortionAccess <- read.csv("stateAbortionAccessScore.csv")
+
+stateChildSpendingTotalsAbortion <- stateChildSpendingTotals %>% inner_join(stateAbortionAccess, 
+                              by=c('state'='State'))
+
+#calculate total spending score
+stateChildSpendingTotalsAbortion$spendingScore <- with(stateChildSpendingTotalsAbortion,
+                                                       education_rank+
+                                                         financial_rank+
+                                                         nutrition_rank+
+                                                         soc_security_rank+
+                                                         tax_rank+
+                                                         health_rank+
+                                                         housing_rank+
+                                                         resources_rank+
+                                                         employment_rank)
+#calculate overall score (with abortion)
+stateChildSpendingTotalsAbortion$overallScore <- with(stateChildSpendingTotalsAbortion,
+                                                       spendingScore+
+                                                         access)
+
+#export results a csv
+write.csv(stateChildSpendingTotalsAbortion,"stateChildSpendingTotalsAbortion.csv", row.names = FALSE)
