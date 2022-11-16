@@ -19,10 +19,6 @@ summary(stateChildSpending)
 sapply(stateChildSpending, function(x) sum(is.na(x)))
 
 #explore select spending levels using bar charts. Captions from data dictionary
-library(GGally)
-ggpairs(stateChildSpending,
-        columns = 2:22)
-
 ggplot(stateChildSpending, aes(y=reorder(State, PK12ed_realperch), x=PK12ed_realperch))+
   theme_classic()+
   geom_col(fill='cadetblue4')+
@@ -82,29 +78,23 @@ stateChildSpending$education <- with(stateChildSpending,
 
 #financial assistance spending per capita  
 stateChildSpending$financial <- with(stateChildSpending,
-                                            othercashserv_realperch+
-                                            TANFbasic_realperch)
-
-#nutrition spending per capita  
-stateChildSpending$nutrition <- stateChildSpending$SNAP_realperch
-
-#social security spending per capita
-stateChildSpending$soc_security <- with(stateChildSpending,
-                                        socsec_realperch+
-                                        fedSSI_realperch)
-
-#tax credits spending per capita
-stateChildSpending$tax <- with(stateChildSpending,
-                              fedEITC_realperch+
-                              CTC_realperch+
-                              addCC_realperch+
-                              stateEITC_realperch)
+                                    othercashserv_realperch+
+                                    socsec_realperch+
+                                    fedSSI_realperch+
+                                    fedEITC_realperch+
+                                    CTC_realperch+
+                                    addCC_realperch+
+                                    stateEITC_realperch+
+                                    wcomp_realperch+
+                                    unemp_realperch+
+                                    TANFbasic_realperch)
 
 #healthcare spending per capita
-stateChildSpending$health <- with(stateChildSpending,
+stateChildSpending$health_nutrition <- with(stateChildSpending,
                                   Medicaid_CHIP_realperch+
                                   pubheath_realperch+
-                                  other_health_realperch)
+                                  other_health_realperch+
+                                  SNAP_realperch)
 
 #housing spending per capita
 stateChildSpending$housing <- stateChildSpending$HCD_realperch
@@ -114,34 +104,22 @@ stateChildSpending$resources <- with(stateChildSpending,
                                     lib_realperch+
                                     parkrec_realperch)
 
-#employment benefits spening per capita
-stateChildSpending$employment <- with(stateChildSpending,
-                                      wcomp_realperch+
-                                      unemp_realperch)
 
 #create new dataframe with totals
 stateChildSpendingTotals <- data.frame(stateChildSpending$State,
                                   stateChildSpending$education,
                                   stateChildSpending$financial,
-                                  stateChildSpending$nutrition,
-                                  stateChildSpending$soc_security,
-                                  stateChildSpending$tax,
-                                  stateChildSpending$health, 
+                                  stateChildSpending$health_nutrition, 
                                   stateChildSpending$housing,
-                                  stateChildSpending$resources,
-                                  stateChildSpending$employment)
+                                  stateChildSpending$resources)
 
 #rename columns
 names(stateChildSpendingTotals)[1] <- "state"
 names(stateChildSpendingTotals)[2] <- "education"
 names(stateChildSpendingTotals)[3] <- "financial"
-names(stateChildSpendingTotals)[4] <- "nutrition"
-names(stateChildSpendingTotals)[5] <- "soc_security"
-names(stateChildSpendingTotals)[6] <- "tax"
-names(stateChildSpendingTotals)[7] <- "health"
-names(stateChildSpendingTotals)[8] <- "housing"
-names(stateChildSpendingTotals)[9] <- "resources"
-names(stateChildSpendingTotals)[10] <- "employment"
+names(stateChildSpendingTotals)[4] <- "health_nutrition"
+names(stateChildSpendingTotals)[5] <- "housing"
+names(stateChildSpendingTotals)[6] <- "resources"
 
 stateChildSpendingTotalsLong <- melt(stateChildSpendingTotals, id.vars = c("state"))
 
@@ -168,31 +146,23 @@ ggplot(stateChildSpendingTotalsLong, aes(y=reorder(state, value), x=value, fill 
   ylab("state")+
   guides(fill=guide_legend("spending category"))
 
-#calculate quantiles and bins for each category
-install.packages("fabricatr")
-library(fabricatr)
+#calculate ranks for each category. 1 = highest spending. 51 = lowest spending
+stateChildSpendingTotals$education_rank <- rank(-stateChildSpendingTotals$education)
+stateChildSpendingTotals$financial_rank <- rank(-stateChildSpendingTotals$financial)
+stateChildSpendingTotals$health_nutrition_rank <- rank(-stateChildSpendingTotals$health_nutrition)
+stateChildSpendingTotals$housing_rank <- rank(-stateChildSpendingTotals$housing)
+stateChildSpendingTotals$resources_rank <- rank(-stateChildSpendingTotals$resources)
 
-stateChildSpendingTotals$education_rank <- split_quantile(x = stateChildSpendingTotals$education, type = 5)
-stateChildSpendingTotals$financial_rank <- split_quantile(x = stateChildSpendingTotals$financial, type = 5)
-stateChildSpendingTotals$nutrition_rank <- split_quantile(x = stateChildSpendingTotals$nutrition, type = 5)
-stateChildSpendingTotals$soc_security_rank <- split_quantile(x = stateChildSpendingTotals$soc_security, type = 5)
-stateChildSpendingTotals$tax_rank <- split_quantile(x = stateChildSpendingTotals$tax, type = 5)
-stateChildSpendingTotals$health_rank <- split_quantile(x = stateChildSpendingTotals$health, type = 5)
-stateChildSpendingTotals$housing_rank <- split_quantile(x = stateChildSpendingTotals$housing, type = 5)
-stateChildSpendingTotals$resources_rank <- split_quantile(x = stateChildSpendingTotals$resources, type = 5)
-stateChildSpendingTotals$employment_rank <- split_quantile(x = stateChildSpendingTotals$employment, type = 5)
+#calculate overall spending and rank
 
-#set as numeric
-stateChildSpendingTotals$education_rank <- as.integer(stateChildSpendingTotals$education_rank)
-stateChildSpendingTotals$financial_rank <- as.numeric(stateChildSpendingTotals$financial_rank)
-stateChildSpendingTotals$nutrition_rank <- as.numeric(stateChildSpendingTotals$nutrition_rank)
-stateChildSpendingTotals$soc_security_rank <- as.numeric(stateChildSpendingTotals$soc_security_rank)
-stateChildSpendingTotals$tax_rank <- as.numeric(stateChildSpendingTotals$tax_rank)
-stateChildSpendingTotals$health_rank <- as.numeric(stateChildSpendingTotals$health_rank)
-stateChildSpendingTotals$housing_rank <- as.numeric(stateChildSpendingTotals$housing_rank)
-stateChildSpendingTotals$resources_rank <- as.numeric(stateChildSpendingTotals$resources_rank)
-stateChildSpendingTotals$employment_rank <- as.numeric(stateChildSpendingTotals$employment_rank)
+stateChildSpendingTotals$total_spending <- with(stateChildSpending,
+                                      education+
+                                      financial+
+                                      health_nutrition+
+                                      housing+
+                                      resources)
 
+stateChildSpendingTotals$total_spending_rank <- rank(-stateChildSpendingTotals$total_spending)
 
 #load and join abortion access value
 stateAbortionAccess <- read.csv("stateAbortionAccessScore.csv")
@@ -200,21 +170,6 @@ stateAbortionAccess <- read.csv("stateAbortionAccessScore.csv")
 stateChildSpendingTotalsAbortion <- stateChildSpendingTotals %>% inner_join(stateAbortionAccess, 
                               by=c('state'='State'))
 
-#calculate total spending score
-stateChildSpendingTotalsAbortion$spendingScore <- with(stateChildSpendingTotalsAbortion,
-                                                       education_rank+
-                                                         financial_rank+
-                                                         nutrition_rank+
-                                                         soc_security_rank+
-                                                         tax_rank+
-                                                         health_rank+
-                                                         housing_rank+
-                                                         resources_rank+
-                                                         employment_rank)
-#calculate overall score (with abortion)
-stateChildSpendingTotalsAbortion$overallScore <- with(stateChildSpendingTotalsAbortion,
-                                                       spendingScore+
-                                                         access)
 
 #export results a csv
 write.csv(stateChildSpendingTotalsAbortion,"stateChildSpendingTotalsAbortion.csv", row.names = FALSE)
