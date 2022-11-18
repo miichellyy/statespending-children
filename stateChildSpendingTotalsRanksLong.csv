@@ -1,0 +1,868 @@
+"state","variable","value"
+"Alabama","education",7975.3152
+"Alaska","education",13810.93826
+"Arizona","education",6019.23198
+"Arkansas","education",8675.67453
+"California","education",10509.39489
+"Colorado","education",8101.00018
+"Connecticut","education",13345.86033
+"Delaware","education",10986.42585
+"District of Columbia","education",18855.35958
+"Florida","education",7813.92971
+"Georgia","education",7987.60292
+"Hawaii","education",7892.50066
+"Idaho","education",6017.87684
+"Illinois","education",9980.01569
+"Indiana","education",7050.89112
+"Iowa","education",9613.00537
+"Kansas","education",8608.71358
+"Kentucky","education",8574.02218
+"Louisiana","education",8501.76147
+"Maine","education",10918.52337
+"Maryland","education",10002.65767
+"Massachusetts","education",11576.83663
+"Michigan","education",9128.0763
+"Minnesota","education",9893.93783
+"Mississippi","education",8486.07787
+"Missouri","education",7785.84506
+"Montana","education",9115.52678
+"Nebraska","education",10643.79502
+"Nevada","education",7142.35835
+"New Hampshire","education",11143.17059
+"New Jersey","education",13683.05199
+"New Mexico","education",9761.39077
+"New York","education",15252.4292
+"North Carolina","education",8115.22998
+"North Dakota","education",11364.31359
+"Ohio","education",8906.02922
+"Oklahoma","education",7011.12129
+"Oregon","education",9937.90079
+"Pennsylvania","education",11032.32794
+"Rhode Island","education",12454.45392
+"South Carolina","education",8434.9228
+"South Dakota","education",7443.78243
+"Tennessee","education",6818.4231
+"Texas","education",8087.69732
+"Utah","education",6816.33027
+"Vermont","education",14850.62979
+"Virginia","education",8959.14999
+"Washington","education",9909.39542
+"West Virginia","education",10085.70953
+"Wisconsin","education",10029.20239
+"Wyoming","education",15969.25861
+"Alabama","financial",3468.8486
+"Alaska","financial",4678.13841
+"Arizona","financial",3836.26878
+"Arkansas","financial",3474.66591
+"California","financial",4813.46387
+"Colorado","financial",3288.82022
+"Connecticut","financial",4263.22637
+"Delaware","financial",3983.59349
+"District of Columbia","financial",9650.01961
+"Florida","financial",3260.9947
+"Georgia","financial",2970.1413
+"Hawaii","financial",3993.71313
+"Idaho","financial",3086.00247
+"Illinois","financial",3846.02498
+"Indiana","financial",3689.14975
+"Iowa","financial",3167.88879
+"Kansas","financial",3087.41798
+"Kentucky","financial",3782.41521
+"Louisiana","financial",3374.75101
+"Maine","financial",6131.395
+"Maryland","financial",4070.66552
+"Massachusetts","financial",4682.79208
+"Michigan","financial",3634.9691
+"Minnesota","financial",4576.86055
+"Mississippi","financial",3544.03741
+"Missouri","financial",2677.77945
+"Montana","financial",2707.28552
+"Nebraska","financial",3659.49562
+"Nevada","financial",3480.35203
+"New Hampshire","financial",2933.64238
+"New Jersey","financial",4318.30496
+"New Mexico","financial",3604.4944
+"New York","financial",5549.61943
+"North Carolina","financial",3208.36441
+"North Dakota","financial",8184.50949
+"Ohio","financial",4187.67253
+"Oklahoma","financial",3596.19988
+"Oregon","financial",5382.60971
+"Pennsylvania","financial",4959.1673
+"Rhode Island","financial",4414.92367
+"South Carolina","financial",3230.61295
+"South Dakota","financial",3255.1169
+"Tennessee","financial",3472.58598
+"Texas","financial",3031.10991
+"Utah","financial",2627.91898
+"Vermont","financial",5773.40637
+"Virginia","financial",3543.04047
+"Washington","financial",5098.13969
+"West Virginia","financial",4994.39681
+"Wisconsin","financial",4188.23126
+"Wyoming","financial",4952.59615
+"Alabama","health_nutrition",11284.90534
+"Alaska","health_nutrition",12438.74169
+"Arizona","health_nutrition",8957.03226
+"Arkansas","health_nutrition",11027.53228
+"California","health_nutrition",12873.36813
+"Colorado","health_nutrition",7941.60324
+"Connecticut","health_nutrition",10739.51195
+"Delaware","health_nutrition",12285.29101
+"District of Columbia","health_nutrition",28185.82245
+"Florida","health_nutrition",8753.65197
+"Georgia","health_nutrition",6862.21998
+"Hawaii","health_nutrition",10974.49932
+"Idaho","health_nutrition",6608.09133
+"Illinois","health_nutrition",7476.22326
+"Indiana","health_nutrition",9811.05725
+"Iowa","health_nutrition",12224.65976
+"Kansas","health_nutrition",8953.31589
+"Kentucky","health_nutrition",12647.25991
+"Louisiana","health_nutrition",10428.24579
+"Maine","health_nutrition",10543.73087
+"Maryland","health_nutrition",8640.73532
+"Massachusetts","health_nutrition",13947.18264
+"Michigan","health_nutrition",9842.11713
+"Minnesota","health_nutrition",11447.19886
+"Mississippi","health_nutrition",13385.85101
+"Missouri","health_nutrition",9663.60212
+"Montana","health_nutrition",9151.15955
+"Nebraska","health_nutrition",6065.1027
+"Nevada","health_nutrition",7036.02201
+"New Hampshire","health_nutrition",7826.32089
+"New Jersey","health_nutrition",9039.59262
+"New Mexico","health_nutrition",14128.52368
+"New York","health_nutrition",17512.48132
+"North Carolina","health_nutrition",10700.56145
+"North Dakota","health_nutrition",6101.18442
+"Ohio","health_nutrition",11536.39629
+"Oklahoma","health_nutrition",7879.82617
+"Oregon","health_nutrition",12262.75919
+"Pennsylvania","health_nutrition",11780.05087
+"Rhode Island","health_nutrition",11015.48313
+"South Carolina","health_nutrition",12668.20578
+"South Dakota","health_nutrition",4806.10431
+"Tennessee","health_nutrition",9330.77655
+"Texas","health_nutrition",7479.17499
+"Utah","health_nutrition",5446.17328
+"Vermont","health_nutrition",13988.77401
+"Virginia","health_nutrition",8476.67614
+"Washington","health_nutrition",10434.38418
+"West Virginia","health_nutrition",11846.56668
+"Wisconsin","health_nutrition",9489.65592
+"Wyoming","health_nutrition",14298.16015
+"Alabama","housing",371.00546
+"Alaska","housing",1450.1145
+"Arizona","housing",251.03238
+"Arkansas","housing",225.03853
+"California","housing",679.88806
+"Colorado","housing",598.66132
+"Connecticut","housing",1127.92188
+"Delaware","housing",657.00677
+"District of Columbia","housing",5145.69873
+"Florida","housing",497.5592
+"Georgia","housing",405.20981
+"Hawaii","housing",662.30103
+"Idaho","housing",313.8938
+"Illinois","housing",558.88861
+"Indiana","housing",476.0849
+"Iowa","housing",202.29799
+"Kansas","housing",355.51102
+"Kentucky","housing",409.93732
+"Louisiana","housing",574.22894
+"Maine","housing",1004.45117
+"Maryland","housing",995.81384
+"Massachusetts","housing",1770.36926
+"Michigan","housing",462.83505
+"Minnesota","housing",641.86255
+"Mississippi","housing",333.83188
+"Missouri","housing",420.66211
+"Montana","housing",305.85599
+"Nebraska","housing",377.43729
+"Nevada","housing",397.73166
+"New Hampshire","housing",750.09869
+"New Jersey","housing",618.39783
+"New Mexico","housing",270.38913
+"New York","housing",961.367
+"North Carolina","housing",548.10175
+"North Dakota","housing",493.15143
+"Ohio","housing",737.00629
+"Oklahoma","housing",377.3201
+"Oregon","housing",643.69434
+"Pennsylvania","housing",605.36627
+"Rhode Island","housing",1204.98352
+"South Carolina","housing",377.44119
+"South Dakota","housing",437.13596
+"Tennessee","housing",460.03088
+"Texas","housing",228.47623
+"Utah","housing",320.74963
+"Vermont","housing",1138.73633
+"Virginia","housing",450.93445
+"Washington","housing",684.47736
+"West Virginia","housing",326.74384
+"Wisconsin","housing",181.74315
+"Wyoming","housing",92.92397
+"Alabama","resources",369.8488
+"Alaska","resources",654.05083
+"Arizona","resources",458.19953
+"Arkansas","resources",379.01905
+"California","resources",669.00108
+"Colorado","resources",928.3645
+"Connecticut","resources",521.80892
+"Delaware","resources",474.27391
+"District of Columbia","resources",1854.2782
+"Florida","resources",678.77647
+"Georgia","resources",313.08921
+"Hawaii","resources",734.86664
+"Idaho","resources",394.47202
+"Illinois","resources",915.88124
+"Indiana","resources",496.00229
+"Iowa","resources",546.60083
+"Kansas","resources",520.15267
+"Kentucky","resources",388.80032
+"Louisiana","resources",644.71765
+"Maine","resources",452.80005
+"Maryland","resources",884.19362
+"Massachusetts","resources",454.51431
+"Michigan","resources",443.44957
+"Minnesota","resources",842.80175
+"Mississippi","resources",315.43439
+"Missouri","resources",557.09585
+"Montana","resources",424.43595
+"Nebraska","resources",481.13727
+"Nevada","resources",838.632
+"New Hampshire","resources",511.78865
+"New Jersey","resources",478.13472
+"New Mexico","resources",587.50657
+"New York","resources",665.08909
+"North Carolina","resources",424.28752
+"North Dakota","resources",1066.2606
+"Ohio","resources",527.97626
+"Oklahoma","resources",442.20189
+"Oregon","resources",826.26903
+"Pennsylvania","resources",339.05397
+"Rhode Island","resources",562.19542
+"South Carolina","resources",530.14606
+"South Dakota","resources",679.17192
+"Tennessee","resources",379.66241
+"Texas","resources",303.22935
+"Utah","resources",491.43081
+"Vermont","resources",541.79161
+"Virginia","resources",586.14723
+"Washington","resources",732.88306
+"West Virginia","resources",547.73108
+"Wisconsin","resources",594.54019
+"Wyoming","resources",913.9743
+"Alabama","education_rank",40
+"Alaska","education_rank",5
+"Arizona","education_rank",50
+"Arkansas","education_rank",30
+"California","education_rank",16
+"Colorado","education_rank",37
+"Connecticut","education_rank",7
+"Delaware","education_rank",13
+"District of Columbia","education_rank",1
+"Florida","education_rank",42
+"Georgia","education_rank",39
+"Hawaii","education_rank",41
+"Idaho","education_rank",51
+"Illinois","education_rank",20
+"Indiana","education_rank",46
+"Iowa","education_rank",25
+"Kansas","education_rank",31
+"Kentucky","education_rank",32
+"Louisiana","education_rank",33
+"Maine","education_rank",14
+"Maryland","education_rank",19
+"Massachusetts","education_rank",9
+"Michigan","education_rank",26
+"Minnesota","education_rank",23
+"Mississippi","education_rank",34
+"Missouri","education_rank",43
+"Montana","education_rank",27
+"Nebraska","education_rank",15
+"Nevada","education_rank",45
+"New Hampshire","education_rank",11
+"New Jersey","education_rank",6
+"New Mexico","education_rank",24
+"New York","education_rank",3
+"North Carolina","education_rank",36
+"North Dakota","education_rank",10
+"Ohio","education_rank",29
+"Oklahoma","education_rank",47
+"Oregon","education_rank",21
+"Pennsylvania","education_rank",12
+"Rhode Island","education_rank",8
+"South Carolina","education_rank",35
+"South Dakota","education_rank",44
+"Tennessee","education_rank",48
+"Texas","education_rank",38
+"Utah","education_rank",49
+"Vermont","education_rank",4
+"Virginia","education_rank",28
+"Washington","education_rank",22
+"West Virginia","education_rank",17
+"Wisconsin","education_rank",18
+"Wyoming","education_rank",2
+"Alabama","financial_rank",36
+"Alaska","financial_rank",13
+"Arizona","financial_rank",24
+"Arkansas","financial_rank",34
+"California","financial_rank",11
+"Colorado","financial_rank",38
+"Connecticut","financial_rank",17
+"Delaware","financial_rank",22
+"District of Columbia","financial_rank",1
+"Florida","financial_rank",39
+"Georgia","financial_rank",47
+"Hawaii","financial_rank",21
+"Idaho","financial_rank",45
+"Illinois","financial_rank",23
+"Indiana","financial_rank",26
+"Iowa","financial_rank",43
+"Kansas","financial_rank",44
+"Kentucky","financial_rank",25
+"Louisiana","financial_rank",37
+"Maine","financial_rank",3
+"Maryland","financial_rank",20
+"Massachusetts","financial_rank",12
+"Michigan","financial_rank",28
+"Minnesota","financial_rank",14
+"Mississippi","financial_rank",31
+"Missouri","financial_rank",50
+"Montana","financial_rank",49
+"Nebraska","financial_rank",27
+"Nevada","financial_rank",33
+"New Hampshire","financial_rank",48
+"New Jersey","financial_rank",16
+"New Mexico","financial_rank",29
+"New York","financial_rank",5
+"North Carolina","financial_rank",42
+"North Dakota","financial_rank",2
+"Ohio","financial_rank",19
+"Oklahoma","financial_rank",30
+"Oregon","financial_rank",6
+"Pennsylvania","financial_rank",9
+"Rhode Island","financial_rank",15
+"South Carolina","financial_rank",41
+"South Dakota","financial_rank",40
+"Tennessee","financial_rank",35
+"Texas","financial_rank",46
+"Utah","financial_rank",51
+"Vermont","financial_rank",4
+"Virginia","financial_rank",32
+"Washington","financial_rank",7
+"West Virginia","financial_rank",8
+"Wisconsin","financial_rank",18
+"Wyoming","financial_rank",10
+"Alabama","health_nutrition_rank",19
+"Alaska","health_nutrition_rank",11
+"Arizona","health_nutrition_rank",35
+"Arkansas","health_nutrition_rank",20
+"California","health_nutrition_rank",8
+"Colorado","health_nutrition_rank",40
+"Connecticut","health_nutrition_rank",23
+"Delaware","health_nutrition_rank",12
+"District of Columbia","health_nutrition_rank",1
+"Florida","health_nutrition_rank",37
+"Georgia","health_nutrition_rank",46
+"Hawaii","health_nutrition_rank",22
+"Idaho","health_nutrition_rank",47
+"Illinois","health_nutrition_rank",44
+"Indiana","health_nutrition_rank",29
+"Iowa","health_nutrition_rank",14
+"Kansas","health_nutrition_rank",36
+"Kentucky","health_nutrition_rank",10
+"Louisiana","health_nutrition_rank",27
+"Maine","health_nutrition_rank",25
+"Maryland","health_nutrition_rank",38
+"Massachusetts","health_nutrition_rank",6
+"Michigan","health_nutrition_rank",28
+"Minnesota","health_nutrition_rank",18
+"Mississippi","health_nutrition_rank",7
+"Missouri","health_nutrition_rank",30
+"Montana","health_nutrition_rank",33
+"Nebraska","health_nutrition_rank",49
+"Nevada","health_nutrition_rank",45
+"New Hampshire","health_nutrition_rank",42
+"New Jersey","health_nutrition_rank",34
+"New Mexico","health_nutrition_rank",4
+"New York","health_nutrition_rank",2
+"North Carolina","health_nutrition_rank",24
+"North Dakota","health_nutrition_rank",48
+"Ohio","health_nutrition_rank",17
+"Oklahoma","health_nutrition_rank",41
+"Oregon","health_nutrition_rank",13
+"Pennsylvania","health_nutrition_rank",16
+"Rhode Island","health_nutrition_rank",21
+"South Carolina","health_nutrition_rank",9
+"South Dakota","health_nutrition_rank",51
+"Tennessee","health_nutrition_rank",32
+"Texas","health_nutrition_rank",43
+"Utah","health_nutrition_rank",50
+"Vermont","health_nutrition_rank",5
+"Virginia","health_nutrition_rank",39
+"Washington","health_nutrition_rank",26
+"West Virginia","health_nutrition_rank",15
+"Wisconsin","health_nutrition_rank",31
+"Wyoming","health_nutrition_rank",3
+"Alabama","housing_rank",38
+"Alaska","housing_rank",3
+"Arizona","housing_rank",46
+"Arkansas","housing_rank",48
+"California","housing_rank",13
+"Colorado","housing_rank",20
+"Connecticut","housing_rank",6
+"Delaware","housing_rank",15
+"District of Columbia","housing_rank",1
+"Florida","housing_rank",24
+"Georgia","housing_rank",33
+"Hawaii","housing_rank",14
+"Idaho","housing_rank",43
+"Illinois","housing_rank",22
+"Indiana","housing_rank",26
+"Iowa","housing_rank",49
+"Kansas","housing_rank",39
+"Kentucky","housing_rank",32
+"Louisiana","housing_rank",21
+"Maine","housing_rank",7
+"Maryland","housing_rank",8
+"Massachusetts","housing_rank",2
+"Michigan","housing_rank",27
+"Minnesota","housing_rank",17
+"Mississippi","housing_rank",40
+"Missouri","housing_rank",31
+"Montana","housing_rank",44
+"Nebraska","housing_rank",36
+"Nevada","housing_rank",34
+"New Hampshire","housing_rank",10
+"New Jersey","housing_rank",18
+"New Mexico","housing_rank",45
+"New York","housing_rank",9
+"North Carolina","housing_rank",23
+"North Dakota","housing_rank",25
+"Ohio","housing_rank",11
+"Oklahoma","housing_rank",37
+"Oregon","housing_rank",16
+"Pennsylvania","housing_rank",19
+"Rhode Island","housing_rank",4
+"South Carolina","housing_rank",35
+"South Dakota","housing_rank",30
+"Tennessee","housing_rank",28
+"Texas","housing_rank",47
+"Utah","housing_rank",42
+"Vermont","housing_rank",5
+"Virginia","housing_rank",29
+"Washington","housing_rank",12
+"West Virginia","housing_rank",41
+"Wisconsin","housing_rank",50
+"Wyoming","housing_rank",51
+"Alabama","resources_rank",47
+"Alaska","resources_rank",16
+"Arizona","resources_rank",36
+"Arkansas","resources_rank",46
+"California","resources_rank",14
+"Colorado","resources_rank",3
+"Connecticut","resources_rank",28
+"Delaware","resources_rank",35
+"District of Columbia","resources_rank",1
+"Florida","resources_rank",13
+"Georgia","resources_rank",50
+"Hawaii","resources_rank",10
+"Idaho","resources_rank",43
+"Illinois","resources_rank",4
+"Indiana","resources_rank",31
+"Iowa","resources_rank",24
+"Kansas","resources_rank",29
+"Kentucky","resources_rank",44
+"Louisiana","resources_rank",17
+"Maine","resources_rank",38
+"Maryland","resources_rank",6
+"Massachusetts","resources_rank",37
+"Michigan","resources_rank",39
+"Minnesota","resources_rank",7
+"Mississippi","resources_rank",49
+"Missouri","resources_rank",22
+"Montana","resources_rank",41
+"Nebraska","resources_rank",33
+"Nevada","resources_rank",8
+"New Hampshire","resources_rank",30
+"New Jersey","resources_rank",34
+"New Mexico","resources_rank",19
+"New York","resources_rank",15
+"North Carolina","resources_rank",42
+"North Dakota","resources_rank",2
+"Ohio","resources_rank",27
+"Oklahoma","resources_rank",40
+"Oregon","resources_rank",9
+"Pennsylvania","resources_rank",48
+"Rhode Island","resources_rank",21
+"South Carolina","resources_rank",26
+"South Dakota","resources_rank",12
+"Tennessee","resources_rank",45
+"Texas","resources_rank",51
+"Utah","resources_rank",32
+"Vermont","resources_rank",25
+"Virginia","resources_rank",20
+"Washington","resources_rank",11
+"West Virginia","resources_rank",23
+"Wisconsin","resources_rank",18
+"Wyoming","resources_rank",5
+"Alabama","total_spending",23469.9234
+"Alaska","total_spending",33031.98369
+"Arizona","total_spending",19521.76493
+"Arkansas","total_spending",23781.9303
+"California","total_spending",29545.11603
+"Colorado","total_spending",20858.44946
+"Connecticut","total_spending",29998.32945
+"Delaware","total_spending",28386.59103
+"District of Columbia","total_spending",63691.17857
+"Florida","total_spending",21004.91205
+"Georgia","total_spending",18538.26322
+"Hawaii","total_spending",24257.88078
+"Idaho","total_spending",16420.33646
+"Illinois","total_spending",22777.03378
+"Indiana","total_spending",21523.18531
+"Iowa","total_spending",25754.45274
+"Kansas","total_spending",21525.11114
+"Kentucky","total_spending",25802.43494
+"Louisiana","total_spending",23523.70486
+"Maine","total_spending",29050.90046
+"Maryland","total_spending",24594.06597
+"Massachusetts","total_spending",32431.69492
+"Michigan","total_spending",23511.44715
+"Minnesota","total_spending",27402.66154
+"Mississippi","total_spending",26065.23256
+"Missouri","total_spending",21104.98459
+"Montana","total_spending",21704.26379
+"Nebraska","total_spending",21226.9679
+"Nevada","total_spending",18895.09605
+"New Hampshire","total_spending",23165.0212
+"New Jersey","total_spending",28137.48212
+"New Mexico","total_spending",28352.30455
+"New York","total_spending",39940.98604
+"North Carolina","total_spending",22996.54511
+"North Dakota","total_spending",27209.41953
+"Ohio","total_spending",25895.08059
+"Oklahoma","total_spending",19306.66933
+"Oregon","total_spending",29053.23306
+"Pennsylvania","total_spending",28715.96635
+"Rhode Island","total_spending",29652.03966
+"South Carolina","total_spending",25241.32878
+"South Dakota","total_spending",16621.31152
+"Tennessee","total_spending",20461.47892
+"Texas","total_spending",19129.6878
+"Utah","total_spending",15702.60297
+"Vermont","total_spending",36293.33811
+"Virginia","total_spending",22015.94828
+"Washington","total_spending",26859.27971
+"West Virginia","total_spending",27801.14794
+"Wisconsin","total_spending",24483.37291
+"Wyoming","total_spending",36226.91318
+"Alabama","total_spending_rank",31
+"Alaska","total_spending_rank",5
+"Arizona","total_spending_rank",44
+"Arkansas","total_spending_rank",28
+"California","total_spending_rank",9
+"Colorado","total_spending_rank",42
+"Connecticut","total_spending_rank",7
+"Delaware","total_spending_rank",13
+"District of Columbia","total_spending_rank",1
+"Florida","total_spending_rank",41
+"Georgia","total_spending_rank",48
+"Hawaii","total_spending_rank",27
+"Idaho","total_spending_rank",50
+"Illinois","total_spending_rank",34
+"Indiana","total_spending_rank",38
+"Iowa","total_spending_rank",23
+"Kansas","total_spending_rank",37
+"Kentucky","total_spending_rank",22
+"Louisiana","total_spending_rank",29
+"Maine","total_spending_rank",11
+"Maryland","total_spending_rank",25
+"Massachusetts","total_spending_rank",6
+"Michigan","total_spending_rank",30
+"Minnesota","total_spending_rank",17
+"Mississippi","total_spending_rank",20
+"Missouri","total_spending_rank",40
+"Montana","total_spending_rank",36
+"Nebraska","total_spending_rank",39
+"Nevada","total_spending_rank",47
+"New Hampshire","total_spending_rank",32
+"New Jersey","total_spending_rank",15
+"New Mexico","total_spending_rank",14
+"New York","total_spending_rank",2
+"North Carolina","total_spending_rank",33
+"North Dakota","total_spending_rank",18
+"Ohio","total_spending_rank",21
+"Oklahoma","total_spending_rank",45
+"Oregon","total_spending_rank",10
+"Pennsylvania","total_spending_rank",12
+"Rhode Island","total_spending_rank",8
+"South Carolina","total_spending_rank",24
+"South Dakota","total_spending_rank",49
+"Tennessee","total_spending_rank",43
+"Texas","total_spending_rank",46
+"Utah","total_spending_rank",51
+"Vermont","total_spending_rank",3
+"Virginia","total_spending_rank",35
+"Washington","total_spending_rank",19
+"West Virginia","total_spending_rank",16
+"Wisconsin","total_spending_rank",26
+"Wyoming","total_spending_rank",4
+"Alabama","education_avg",7975.3152
+"Alaska","education_avg",13810.93826
+"Arizona","education_avg",6019.23198
+"Arkansas","education_avg",8675.67453
+"California","education_avg",10509.39489
+"Colorado","education_avg",8101.00018
+"Connecticut","education_avg",13345.86033
+"Delaware","education_avg",10986.42585
+"District of Columbia","education_avg",18855.35958
+"Florida","education_avg",7813.92971
+"Georgia","education_avg",7987.60292
+"Hawaii","education_avg",7892.50066
+"Idaho","education_avg",6017.87684
+"Illinois","education_avg",9980.01569
+"Indiana","education_avg",7050.89112
+"Iowa","education_avg",9613.00537
+"Kansas","education_avg",8608.71358
+"Kentucky","education_avg",8574.02218
+"Louisiana","education_avg",8501.76147
+"Maine","education_avg",10918.52337
+"Maryland","education_avg",10002.65767
+"Massachusetts","education_avg",11576.83663
+"Michigan","education_avg",9128.0763
+"Minnesota","education_avg",9893.93783
+"Mississippi","education_avg",8486.07787
+"Missouri","education_avg",7785.84506
+"Montana","education_avg",9115.52678
+"Nebraska","education_avg",10643.79502
+"Nevada","education_avg",7142.35835
+"New Hampshire","education_avg",11143.17059
+"New Jersey","education_avg",13683.05199
+"New Mexico","education_avg",9761.39077
+"New York","education_avg",15252.4292
+"North Carolina","education_avg",8115.22998
+"North Dakota","education_avg",11364.31359
+"Ohio","education_avg",8906.02922
+"Oklahoma","education_avg",7011.12129
+"Oregon","education_avg",9937.90079
+"Pennsylvania","education_avg",11032.32794
+"Rhode Island","education_avg",12454.45392
+"South Carolina","education_avg",8434.9228
+"South Dakota","education_avg",7443.78243
+"Tennessee","education_avg",6818.4231
+"Texas","education_avg",8087.69732
+"Utah","education_avg",6816.33027
+"Vermont","education_avg",14850.62979
+"Virginia","education_avg",8959.14999
+"Washington","education_avg",9909.39542
+"West Virginia","education_avg",10085.70953
+"Wisconsin","education_avg",10029.20239
+"Wyoming","education_avg",15969.25861
+"Alabama","financial_avg",3468.8486
+"Alaska","financial_avg",4678.13841
+"Arizona","financial_avg",3836.26878
+"Arkansas","financial_avg",3474.66591
+"California","financial_avg",4813.46387
+"Colorado","financial_avg",3288.82022
+"Connecticut","financial_avg",4263.22637
+"Delaware","financial_avg",3983.59349
+"District of Columbia","financial_avg",9650.01961
+"Florida","financial_avg",3260.9947
+"Georgia","financial_avg",2970.1413
+"Hawaii","financial_avg",3993.71313
+"Idaho","financial_avg",3086.00247
+"Illinois","financial_avg",3846.02498
+"Indiana","financial_avg",3689.14975
+"Iowa","financial_avg",3167.88879
+"Kansas","financial_avg",3087.41798
+"Kentucky","financial_avg",3782.41521
+"Louisiana","financial_avg",3374.75101
+"Maine","financial_avg",6131.395
+"Maryland","financial_avg",4070.66552
+"Massachusetts","financial_avg",4682.79208
+"Michigan","financial_avg",3634.9691
+"Minnesota","financial_avg",4576.86055
+"Mississippi","financial_avg",3544.03741
+"Missouri","financial_avg",2677.77945
+"Montana","financial_avg",2707.28552
+"Nebraska","financial_avg",3659.49562
+"Nevada","financial_avg",3480.35203
+"New Hampshire","financial_avg",2933.64238
+"New Jersey","financial_avg",4318.30496
+"New Mexico","financial_avg",3604.4944
+"New York","financial_avg",5549.61943
+"North Carolina","financial_avg",3208.36441
+"North Dakota","financial_avg",8184.50949
+"Ohio","financial_avg",4187.67253
+"Oklahoma","financial_avg",3596.19988
+"Oregon","financial_avg",5382.60971
+"Pennsylvania","financial_avg",4959.1673
+"Rhode Island","financial_avg",4414.92367
+"South Carolina","financial_avg",3230.61295
+"South Dakota","financial_avg",3255.1169
+"Tennessee","financial_avg",3472.58598
+"Texas","financial_avg",3031.10991
+"Utah","financial_avg",2627.91898
+"Vermont","financial_avg",5773.40637
+"Virginia","financial_avg",3543.04047
+"Washington","financial_avg",5098.13969
+"West Virginia","financial_avg",4994.39681
+"Wisconsin","financial_avg",4188.23126
+"Wyoming","financial_avg",4952.59615
+"Alabama","health_nutrition_avg",11284.90534
+"Alaska","health_nutrition_avg",12438.74169
+"Arizona","health_nutrition_avg",8957.03226
+"Arkansas","health_nutrition_avg",11027.53228
+"California","health_nutrition_avg",12873.36813
+"Colorado","health_nutrition_avg",7941.60324
+"Connecticut","health_nutrition_avg",10739.51195
+"Delaware","health_nutrition_avg",12285.29101
+"District of Columbia","health_nutrition_avg",28185.82245
+"Florida","health_nutrition_avg",8753.65197
+"Georgia","health_nutrition_avg",6862.21998
+"Hawaii","health_nutrition_avg",10974.49932
+"Idaho","health_nutrition_avg",6608.09133
+"Illinois","health_nutrition_avg",7476.22326
+"Indiana","health_nutrition_avg",9811.05725
+"Iowa","health_nutrition_avg",12224.65976
+"Kansas","health_nutrition_avg",8953.31589
+"Kentucky","health_nutrition_avg",12647.25991
+"Louisiana","health_nutrition_avg",10428.24579
+"Maine","health_nutrition_avg",10543.73087
+"Maryland","health_nutrition_avg",8640.73532
+"Massachusetts","health_nutrition_avg",13947.18264
+"Michigan","health_nutrition_avg",9842.11713
+"Minnesota","health_nutrition_avg",11447.19886
+"Mississippi","health_nutrition_avg",13385.85101
+"Missouri","health_nutrition_avg",9663.60212
+"Montana","health_nutrition_avg",9151.15955
+"Nebraska","health_nutrition_avg",6065.1027
+"Nevada","health_nutrition_avg",7036.02201
+"New Hampshire","health_nutrition_avg",7826.32089
+"New Jersey","health_nutrition_avg",9039.59262
+"New Mexico","health_nutrition_avg",14128.52368
+"New York","health_nutrition_avg",17512.48132
+"North Carolina","health_nutrition_avg",10700.56145
+"North Dakota","health_nutrition_avg",6101.18442
+"Ohio","health_nutrition_avg",11536.39629
+"Oklahoma","health_nutrition_avg",7879.82617
+"Oregon","health_nutrition_avg",12262.75919
+"Pennsylvania","health_nutrition_avg",11780.05087
+"Rhode Island","health_nutrition_avg",11015.48313
+"South Carolina","health_nutrition_avg",12668.20578
+"South Dakota","health_nutrition_avg",4806.10431
+"Tennessee","health_nutrition_avg",9330.77655
+"Texas","health_nutrition_avg",7479.17499
+"Utah","health_nutrition_avg",5446.17328
+"Vermont","health_nutrition_avg",13988.77401
+"Virginia","health_nutrition_avg",8476.67614
+"Washington","health_nutrition_avg",10434.38418
+"West Virginia","health_nutrition_avg",11846.56668
+"Wisconsin","health_nutrition_avg",9489.65592
+"Wyoming","health_nutrition_avg",14298.16015
+"Alabama","housing_avg",371.00546
+"Alaska","housing_avg",1450.1145
+"Arizona","housing_avg",251.03238
+"Arkansas","housing_avg",225.03853
+"California","housing_avg",679.88806
+"Colorado","housing_avg",598.66132
+"Connecticut","housing_avg",1127.92188
+"Delaware","housing_avg",657.00677
+"District of Columbia","housing_avg",5145.69873
+"Florida","housing_avg",497.5592
+"Georgia","housing_avg",405.20981
+"Hawaii","housing_avg",662.30103
+"Idaho","housing_avg",313.8938
+"Illinois","housing_avg",558.88861
+"Indiana","housing_avg",476.0849
+"Iowa","housing_avg",202.29799
+"Kansas","housing_avg",355.51102
+"Kentucky","housing_avg",409.93732
+"Louisiana","housing_avg",574.22894
+"Maine","housing_avg",1004.45117
+"Maryland","housing_avg",995.81384
+"Massachusetts","housing_avg",1770.36926
+"Michigan","housing_avg",462.83505
+"Minnesota","housing_avg",641.86255
+"Mississippi","housing_avg",333.83188
+"Missouri","housing_avg",420.66211
+"Montana","housing_avg",305.85599
+"Nebraska","housing_avg",377.43729
+"Nevada","housing_avg",397.73166
+"New Hampshire","housing_avg",750.09869
+"New Jersey","housing_avg",618.39783
+"New Mexico","housing_avg",270.38913
+"New York","housing_avg",961.367
+"North Carolina","housing_avg",548.10175
+"North Dakota","housing_avg",493.15143
+"Ohio","housing_avg",737.00629
+"Oklahoma","housing_avg",377.3201
+"Oregon","housing_avg",643.69434
+"Pennsylvania","housing_avg",605.36627
+"Rhode Island","housing_avg",1204.98352
+"South Carolina","housing_avg",377.44119
+"South Dakota","housing_avg",437.13596
+"Tennessee","housing_avg",460.03088
+"Texas","housing_avg",228.47623
+"Utah","housing_avg",320.74963
+"Vermont","housing_avg",1138.73633
+"Virginia","housing_avg",450.93445
+"Washington","housing_avg",684.47736
+"West Virginia","housing_avg",326.74384
+"Wisconsin","housing_avg",181.74315
+"Wyoming","housing_avg",92.92397
+"Alabama","resources_avg",369.8488
+"Alaska","resources_avg",654.05083
+"Arizona","resources_avg",458.19953
+"Arkansas","resources_avg",379.01905
+"California","resources_avg",669.00108
+"Colorado","resources_avg",928.3645
+"Connecticut","resources_avg",521.80892
+"Delaware","resources_avg",474.27391
+"District of Columbia","resources_avg",1854.2782
+"Florida","resources_avg",678.77647
+"Georgia","resources_avg",313.08921
+"Hawaii","resources_avg",734.86664
+"Idaho","resources_avg",394.47202
+"Illinois","resources_avg",915.88124
+"Indiana","resources_avg",496.00229
+"Iowa","resources_avg",546.60083
+"Kansas","resources_avg",520.15267
+"Kentucky","resources_avg",388.80032
+"Louisiana","resources_avg",644.71765
+"Maine","resources_avg",452.80005
+"Maryland","resources_avg",884.19362
+"Massachusetts","resources_avg",454.51431
+"Michigan","resources_avg",443.44957
+"Minnesota","resources_avg",842.80175
+"Mississippi","resources_avg",315.43439
+"Missouri","resources_avg",557.09585
+"Montana","resources_avg",424.43595
+"Nebraska","resources_avg",481.13727
+"Nevada","resources_avg",838.632
+"New Hampshire","resources_avg",511.78865
+"New Jersey","resources_avg",478.13472
+"New Mexico","resources_avg",587.50657
+"New York","resources_avg",665.08909
+"North Carolina","resources_avg",424.28752
+"North Dakota","resources_avg",1066.2606
+"Ohio","resources_avg",527.97626
+"Oklahoma","resources_avg",442.20189
+"Oregon","resources_avg",826.26903
+"Pennsylvania","resources_avg",339.05397
+"Rhode Island","resources_avg",562.19542
+"South Carolina","resources_avg",530.14606
+"South Dakota","resources_avg",679.17192
+"Tennessee","resources_avg",379.66241
+"Texas","resources_avg",303.22935
+"Utah","resources_avg",491.43081
+"Vermont","resources_avg",541.79161
+"Virginia","resources_avg",586.14723
+"Washington","resources_avg",732.88306
+"West Virginia","resources_avg",547.73108
+"Wisconsin","resources_avg",594.54019
+"Wyoming","resources_avg",913.9743

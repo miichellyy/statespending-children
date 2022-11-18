@@ -1,0 +1,307 @@
+state,rank_group,rank_value
+Alabama,education,40
+Arkansas,education,30
+Idaho,education,51
+Kentucky,education,32
+Louisiana,education,33
+Mississippi,education,34
+Missouri,education,43
+Oklahoma,education,47
+South Dakota,education,44
+Tennessee,education,48
+Texas,education,38
+West Virginia,education,17
+Arizona,education,50
+Georgia,education,39
+Indiana,education,46
+Iowa,education,25
+Michigan,education,26
+Nebraska,education,15
+North Carolina,education,36
+North Dakota,education,10
+Ohio,education,29
+Pennsylvania,education,12
+South Carolina,education,35
+Utah,education,49
+Wisconsin,education,18
+Wyoming,education,2
+New Hampshire,education,11
+New Mexico,education,24
+Virginia,education,28
+Alaska,education,5
+Colorado,education,37
+Delaware,education,13
+District of Columbia,education,1
+Florida,education,42
+Hawaii,education,41
+Kansas,education,31
+Maine,education,14
+Maryland,education,19
+Massachusetts,education,9
+Montana,education,27
+Nevada,education,45
+Rhode Island,education,8
+California,education,16
+Connecticut,education,7
+Illinois,education,20
+Minnesota,education,23
+New Jersey,education,6
+New York,education,3
+Oregon,education,21
+Vermont,education,4
+Washington,education,22
+Alabama,financial,36
+Arkansas,financial,34
+Idaho,financial,45
+Kentucky,financial,25
+Louisiana,financial,37
+Mississippi,financial,31
+Missouri,financial,50
+Oklahoma,financial,30
+South Dakota,financial,40
+Tennessee,financial,35
+Texas,financial,46
+West Virginia,financial,8
+Arizona,financial,24
+Georgia,financial,47
+Indiana,financial,26
+Iowa,financial,43
+Michigan,financial,28
+Nebraska,financial,27
+North Carolina,financial,42
+North Dakota,financial,2
+Ohio,financial,19
+Pennsylvania,financial,9
+South Carolina,financial,41
+Utah,financial,51
+Wisconsin,financial,18
+Wyoming,financial,10
+New Hampshire,financial,48
+New Mexico,financial,29
+Virginia,financial,32
+Alaska,financial,13
+Colorado,financial,38
+Delaware,financial,22
+District of Columbia,financial,1
+Florida,financial,39
+Hawaii,financial,21
+Kansas,financial,44
+Maine,financial,3
+Maryland,financial,20
+Massachusetts,financial,12
+Montana,financial,49
+Nevada,financial,33
+Rhode Island,financial,15
+California,financial,11
+Connecticut,financial,17
+Illinois,financial,23
+Minnesota,financial,14
+New Jersey,financial,16
+New York,financial,5
+Oregon,financial,6
+Vermont,financial,4
+Washington,financial,7
+Alabama,health_nutrition,19
+Arkansas,health_nutrition,20
+Idaho,health_nutrition,47
+Kentucky,health_nutrition,10
+Louisiana,health_nutrition,27
+Mississippi,health_nutrition,7
+Missouri,health_nutrition,30
+Oklahoma,health_nutrition,41
+South Dakota,health_nutrition,51
+Tennessee,health_nutrition,32
+Texas,health_nutrition,43
+West Virginia,health_nutrition,15
+Arizona,health_nutrition,35
+Georgia,health_nutrition,46
+Indiana,health_nutrition,29
+Iowa,health_nutrition,14
+Michigan,health_nutrition,28
+Nebraska,health_nutrition,49
+North Carolina,health_nutrition,24
+North Dakota,health_nutrition,48
+Ohio,health_nutrition,17
+Pennsylvania,health_nutrition,16
+South Carolina,health_nutrition,9
+Utah,health_nutrition,50
+Wisconsin,health_nutrition,31
+Wyoming,health_nutrition,3
+New Hampshire,health_nutrition,42
+New Mexico,health_nutrition,4
+Virginia,health_nutrition,39
+Alaska,health_nutrition,11
+Colorado,health_nutrition,40
+Delaware,health_nutrition,12
+District of Columbia,health_nutrition,1
+Florida,health_nutrition,37
+Hawaii,health_nutrition,22
+Kansas,health_nutrition,36
+Maine,health_nutrition,25
+Maryland,health_nutrition,38
+Massachusetts,health_nutrition,6
+Montana,health_nutrition,33
+Nevada,health_nutrition,45
+Rhode Island,health_nutrition,21
+California,health_nutrition,8
+Connecticut,health_nutrition,23
+Illinois,health_nutrition,44
+Minnesota,health_nutrition,18
+New Jersey,health_nutrition,34
+New York,health_nutrition,2
+Oregon,health_nutrition,13
+Vermont,health_nutrition,5
+Washington,health_nutrition,26
+Alabama,housing,38
+Arkansas,housing,48
+Idaho,housing,43
+Kentucky,housing,32
+Louisiana,housing,21
+Mississippi,housing,40
+Missouri,housing,31
+Oklahoma,housing,37
+South Dakota,housing,30
+Tennessee,housing,28
+Texas,housing,47
+West Virginia,housing,41
+Arizona,housing,46
+Georgia,housing,33
+Indiana,housing,26
+Iowa,housing,49
+Michigan,housing,27
+Nebraska,housing,36
+North Carolina,housing,23
+North Dakota,housing,25
+Ohio,housing,11
+Pennsylvania,housing,19
+South Carolina,housing,35
+Utah,housing,42
+Wisconsin,housing,50
+Wyoming,housing,51
+New Hampshire,housing,10
+New Mexico,housing,45
+Virginia,housing,29
+Alaska,housing,3
+Colorado,housing,20
+Delaware,housing,15
+District of Columbia,housing,1
+Florida,housing,24
+Hawaii,housing,14
+Kansas,housing,39
+Maine,housing,7
+Maryland,housing,8
+Massachusetts,housing,2
+Montana,housing,44
+Nevada,housing,34
+Rhode Island,housing,4
+California,housing,13
+Connecticut,housing,6
+Illinois,housing,22
+Minnesota,housing,17
+New Jersey,housing,18
+New York,housing,9
+Oregon,housing,16
+Vermont,housing,5
+Washington,housing,12
+Alabama,resources,47
+Arkansas,resources,46
+Idaho,resources,43
+Kentucky,resources,44
+Louisiana,resources,17
+Mississippi,resources,49
+Missouri,resources,22
+Oklahoma,resources,40
+South Dakota,resources,12
+Tennessee,resources,45
+Texas,resources,51
+West Virginia,resources,23
+Arizona,resources,36
+Georgia,resources,50
+Indiana,resources,31
+Iowa,resources,24
+Michigan,resources,39
+Nebraska,resources,33
+North Carolina,resources,42
+North Dakota,resources,2
+Ohio,resources,27
+Pennsylvania,resources,48
+South Carolina,resources,26
+Utah,resources,32
+Wisconsin,resources,18
+Wyoming,resources,5
+New Hampshire,resources,30
+New Mexico,resources,19
+Virginia,resources,20
+Alaska,resources,16
+Colorado,resources,3
+Delaware,resources,35
+District of Columbia,resources,1
+Florida,resources,13
+Hawaii,resources,10
+Kansas,resources,29
+Maine,resources,38
+Maryland,resources,6
+Massachusetts,resources,37
+Montana,resources,41
+Nevada,resources,8
+Rhode Island,resources,21
+California,resources,14
+Connecticut,resources,28
+Illinois,resources,4
+Minnesota,resources,7
+New Jersey,resources,34
+New York,resources,15
+Oregon,resources,9
+Vermont,resources,25
+Washington,resources,11
+Alabama,total,31
+Arkansas,total,28
+Idaho,total,50
+Kentucky,total,22
+Louisiana,total,29
+Mississippi,total,20
+Missouri,total,40
+Oklahoma,total,45
+South Dakota,total,49
+Tennessee,total,43
+Texas,total,46
+West Virginia,total,16
+Arizona,total,44
+Georgia,total,48
+Indiana,total,38
+Iowa,total,23
+Michigan,total,30
+Nebraska,total,39
+North Carolina,total,33
+North Dakota,total,18
+Ohio,total,21
+Pennsylvania,total,12
+South Carolina,total,24
+Utah,total,51
+Wisconsin,total,26
+Wyoming,total,4
+New Hampshire,total,32
+New Mexico,total,14
+Virginia,total,35
+Alaska,total,5
+Colorado,total,42
+Delaware,total,13
+District of Columbia,total,1
+Florida,total,41
+Hawaii,total,27
+Kansas,total,37
+Maine,total,11
+Maryland,total,25
+Massachusetts,total,6
+Montana,total,36
+Nevada,total,47
+Rhode Island,total,8
+California,total,9
+Connecticut,total,7
+Illinois,total,34
+Minnesota,total,17
+New Jersey,total,15
+New York,total,2
+Oregon,total,10
+Vermont,total,3
+Washington,total,19

@@ -154,7 +154,6 @@ stateChildSpendingTotals$housing_rank <- rank(-stateChildSpendingTotals$housing)
 stateChildSpendingTotals$resources_rank <- rank(-stateChildSpendingTotals$resources)
 
 #calculate overall spending and rank
-
 stateChildSpendingTotals$total_spending <- with(stateChildSpending,
                                       education+
                                       financial+
@@ -163,6 +162,31 @@ stateChildSpendingTotals$total_spending <- with(stateChildSpending,
                                       resources)
 
 stateChildSpendingTotals$total_spending_rank <- rank(-stateChildSpendingTotals$total_spending)
+
+#calculate average spending per category
+stateChildSpendingTotals <- stateChildSpendingTotals %>%
+  group_by(state) %>%
+  mutate(education_avg = mean(education, na.rm=TRUE))
+
+stateChildSpendingTotals <- stateChildSpendingTotals %>%
+  group_by(state) %>%
+  mutate(financial_avg = mean(financial, na.rm=TRUE))
+
+stateChildSpendingTotals <- stateChildSpendingTotals %>%
+  group_by(state) %>%
+  mutate(health_nutrition_avg = mean(health_nutrition, na.rm=TRUE))
+
+stateChildSpendingTotals <- stateChildSpendingTotals %>%
+  group_by(state) %>%
+  mutate(housing_avg = mean(housing, na.rm=TRUE))
+
+stateChildSpendingTotals <- stateChildSpendingTotals %>%
+  group_by(state) %>%
+  mutate(resources_avg = mean(resources, na.rm=TRUE))
+
+#save as long dataset
+stateChildSpendingTotalsRanksLong <- melt(stateChildSpendingTotals, id.vars = c("state"))
+write.csv(stateChildSpendingTotalsRanksLong, "stateChildSpendingTotalsRanksLong.csv", row.names = FALSE)
 
 #load and join abortion access value
 stateAbortionAccess <- read.csv("stateAbortionAccessScore.csv")
